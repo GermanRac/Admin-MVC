@@ -1,0 +1,44 @@
+<html>
+<head>
+    <style>
+        .container-form {
+            width: 100%;
+            display:flexbox;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /*  centra verticalmente el formulario en la pantalla */
+        }
+        
+    </style>
+
+</head>
+<body>
+    <div class="container-form">
+        <h3 class="txt_gris_medio">Acceder sistema AUBER</h3>
+        <hr>
+        <div class="login-container">
+            {% if form.errors %}
+                <div class="alert alert-danger"><p>Usuario o contrasena incorrectos</p>
+
+                </div>
+            {% endif %}
+
+            <form id="form-login" method="post" action="">
+                {% csrf_token %}
+
+                <div class="w450" id="username">
+                    <p>Usuario</p>
+                    {{ form.username }}
+                </div>
+                <div class="w450" id="password">
+                    <p>Contrasena</p>
+                    {{ form.password }}
+                </div>
+                <button id="btn-registrar" class="button_large">Entrar</button>
+                <div class="clearfix"></div>
+            </form>
+            <a href="#" class="txt_verde txt_center mt15 mb20" style="display: block">Aviso de privacidad</a> 
+        </div>
+    </div>
+</body>    
+</html>
