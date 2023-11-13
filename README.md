@@ -31,3 +31,4 @@ En Django, la validación back-end se realiza principalmente en las vistas o con
 - **Validación de Permisos y Autorizaciones:** Se controla el acceso a ciertas funcionalidades o datos mediante la validación de permisos dentro de las vistas o controladores.
 
 La validación back-end garantiza que, independientemente de la capa front-end utilizada, las reglas y restricciones críticas del negocio se apliquen correctamente, mejorando la robustez y seguridad de la aplicación.
+Deploy: https://admin-mvc-neon.vercel.app/
