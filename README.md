@@ -13,7 +13,11 @@ Para implementar la administración de usuarios y el panel de administrador en D
 - **Configuración de Autenticación:** Se configuran las vistas y plantillas de Django para el registro, inicio de sesión, recuperación de contraseñas y otras funcionalidades relacionadas con la autenticación de usuarios.
 
 - **Personalización del Panel de Administrador:** Se pueden personalizar y agregar funcionalidades al panel de administrador de Django para gestionar los modelos de datos del sitio.
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+
+[![Build Status](https://s2.qwant.com/thumbr/0x0/7/9/4fccfd9f69f80dae77afa9c1e2567441a8293a09ecb17bf306233194e9fea8/django-admin-dashboard00.png?u=http%3A%2F%2Fwww.maestrosdelweb.com%2Fimages%2F2012%2F05%2Fdjango-admin-dashboard00.png&q=0&b=1&p=0&a=0)
+[![Build Status](https://s1.qwant.com/thumbr/0x380/0/b/a91cefe782d07db27fa122e7cb7b5a24211d6cf61f575f50852f01498915aa/django-bare-boned-user-admin.4ac55297d529.png?u=https%3A%2F%2Ffiles.realpython.com%2Fmedia%2Fdjango-bare-boned-user-admin.4ac55297d529.png&q=0&b=1&p=0&a=0)
+
+
 ## _Validación Back-end de Funcionalidades_
 
 > Es crucial validar las funcionalidades fundamentales del core 
